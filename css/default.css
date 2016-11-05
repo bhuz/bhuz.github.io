@@ -1,3 +1,46 @@
 body {
   background-image: url("https://raw.githubusercontent.com/bhuz/bhuz.github.io/master/img/bg.png");
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+footer {
+  position:fixed;
+  bottom:0px;
+  width:100%;
+}
+
+.footer {
+  text-transform: none;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-transform: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: white;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
 }
