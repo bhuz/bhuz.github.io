@@ -5,43 +5,28 @@ body {
   text-transform: uppercase;
 }
 
+.logo img{
+  height: 150px;
+  padding-top: 2em;
+}
+
+.title {
+  color: white;
+  font-size: 400%;
+}
+
+.title h4 {
+  color: slategrey;
+}
+
 footer {
-  position:fixed;
-  bottom:0px;
-  width:100%;
+  background-color: white;
 }
 
-.footer {
-  text-transform: none;
-  text-align: center;
+.message {
+  padding-top: 20%;
 }
 
-.footer a {
-  color: white;
-  text-transform: none;
-}
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-}
-
-h1 {
-    font-size: 64px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 72px;
-    color: white;
-}
-
-button {
-  background-color: purple;
-  color: white;
-  font-size: 24px;
-  text-transform: lowercase;
-  border: none;
+.brands {
+  padding: 20px;
 }
